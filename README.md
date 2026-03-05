@@ -2,9 +2,32 @@
 
 A kids game featuring a scary rabbit that chases you through a spooky maze!
 
+## ▶️ Play Online
+
+**Live preview → https://shannon-arch.github.io/rabbit/**
+
+_(Automatically deployed to GitHub Pages on every push to `main`.)_
+
+## 💻 Run Locally
+
+Just open `index.html` directly in any modern web browser — no build step or
+server required:
+
+```bash
+# Option 1 – double-click index.html in your file manager, or drag it into your browser
+
+# Option 2 – one-line local server with Python (already installed on most systems)
+python3 -m http.server 8080
+# then open http://localhost:8080 in your browser
+
+# Option 3 – one-line local server with Node.js
+npx serve .
+# then open the URL shown in your terminal
+```
+
 ## How to Play
 
-Open `index.html` in your browser and try to survive as long as possible.
+Play online or open `index.html` locally, then try to survive as long as possible.
 
 - **Move**: Arrow Keys or WASD
 - **Goal**: Run from the scary rabbit — don't get caught!
